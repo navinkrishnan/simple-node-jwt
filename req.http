@@ -1,0 +1,10 @@
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "admin@admin.com",
+    "password": "admin"
+}
+###
+GET http://localhost:3000/api/secure/msg
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInBhc3N3b3JkIjoiJGFyZ29uMmkkdj0xOSRtPTQwOTYsdD0zLHA9MSRVcC8xTDZZN1dqWGRSZ0F1ZkptSCtnJFZFTS9HVWJnZndZWlVxTkVQWVM2cUoxVUIrbVh1bTZ0ejU5YkJ5VlRweWsifSwiaWF0IjoxNjAxMjE5MTk5LCJleHAiOjE2MDEyMTkyNTl9.tnlcoeq9XNbDVZ8SAi8fP8KsTfiyLvgNIjdyFhwwEJE

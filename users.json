@@ -1,0 +1,12 @@
+[
+    {
+        "username": "admin",
+        "email": "admin@admin.com",
+        "password":"$argon2i$v=19$m=4096,t=3,p=1$Up/1L6Y7WjXdRgAufJmH+g$VEM/GUbgfwYZUqNEPYS6qJ1UB+mXum6tz59bByVTpyk"
+    },
+    {
+        "username": "john",
+        "email": "john@sample.com",
+        "password":"$argon2i$v=19$m=4096,t=3,p=1$CzRkU27BGXd7dCrsl8m2+A$CDbQAoT9xlWxgacIKa3gV3h13m/2E9e8IDwgyUVAiEo"
+    }
+]
